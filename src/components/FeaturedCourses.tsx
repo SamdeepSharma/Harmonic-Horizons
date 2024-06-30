@@ -24,12 +24,12 @@ const FeaturedCourses = () => {
                     <h2 className="text-teal-600 text-base font-semibold uppercase tracking-wide">FEATURED COURSES</h2>
                     <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-white sm:text-4xl">Learn with the best!</p>
                </div>
-               <div className="mt-10">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+               <div className="mt-16">
+                    <div className="flex flex-wrap justify-center gap-10">
                          {
                               featuredCourses.map((course: Course) => (
                                    <div key={course.id} className="dark flex justify-center">
-                                        <BackgroundGradient className="mb-6 rounded-[22px] max-w-md h-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">
+                                        <BackgroundGradient className="flex flex-col justify-between rounded-[22px] h-full max-w-md p-4 sm:p-10 bg-white dark:bg-zinc-900">
                                              <div>
                                                   <h3 className="text-base sm:text-xl text-black mb-4 dark:text-neutral-200">
                                                        {course.title}
@@ -52,7 +52,7 @@ const FeaturedCourses = () => {
                          }
                     </div>
                </div>
-               <div className="mt-20 text-center ">
+               <div className="mt-20 text-center">
                     <Link href={"/courses"} className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                          View All Courses
                     </Link>
