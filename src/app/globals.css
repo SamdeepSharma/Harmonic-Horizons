@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1b1b1b; /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #262626; /* Color of the thumb on hover */
+}
