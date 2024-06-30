@@ -34,7 +34,7 @@ body {
 
 /* For WebKit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
-  width: 10px; /* Width of the scrollbar */
+  width: 3px; /* Width of the scrollbar */
 }
 
 /* Track */
@@ -44,11 +44,11 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1b1b1b; /* Color of the thumb */
+  background: #ffffff; /* Color of the thumb */
   border-radius: 5px; /* Rounded corners of the thumb */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #262626; /* Color of the thumb on hover */
+  background: #bcbcbc; /* Color of the thumb on hover */
 }
