@@ -3,6 +3,8 @@ import FeaturedCourses from '@/components/FeaturedCourses'
 import StickyScroll from '@/components/StickyScroll';
 import GridScrollingCards from '@/components/GridScrollingCards';
 import UpcomingWebinars from '@/components/UpcomingWebinars';
+import Instructors from '@/components/Instructors';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <StickyScroll/>
       <GridScrollingCards/>
       <UpcomingWebinars/>
+      <Instructors/>
+      <Footer/>
     </main>
   );
 }

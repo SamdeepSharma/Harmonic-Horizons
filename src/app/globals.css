@@ -35,6 +35,7 @@ body {
 /* For WebKit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 3px; /* Width of the scrollbar */
+  height: 2px;
 }
 
 /* Track */
