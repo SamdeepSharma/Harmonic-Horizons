@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection'
 import FeaturedCourses from '@/components/FeaturedCourses'
 import StickyScroll from '@/components/StickyScroll';
+import GridScrollingCards from '@/components/GridScrollingCards';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection/>
       <FeaturedCourses/>
       <StickyScroll/>
+      <GridScrollingCards/>
     </main>
   );
 }

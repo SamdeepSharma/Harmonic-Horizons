@@ -41,7 +41,7 @@ const FeaturedCourses = () => {
                                              <div className="mt-6">
                                                   <Link href={`/courses/${course.slug}`} className="relative inline-flex h-12 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-800 focus:ring-offset-2 focus:ring-offset-gray-200">
                                                        <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#86EFAC_50%,#E2CBFF_100%)]" />
-                                                       <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-500 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                                                       <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                                                             Learn more
                                                        </span>
                                                   </Link>
